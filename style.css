@@ -201,22 +201,48 @@ a:hover {
     align-items: center;
     border-right: 1px solid black;
     border-left: 1px solid black;
-    padding: 0 20px;
+    padding: 20px;
+ }
 
+ .popular-tea p {
+    padding : 10px 0px;
+    font-size: 3vh;
  }
 
  .section__div div div:first-child{
     border-bottom: 1px solid black;
  }
 
- .section__div div div img {
-    padding: 0 20px;
-
+ .section__aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
  }
 
- .section__div div div p {
+ .section__aside p {
     padding: 10px 0;
     text-align: center;
+    font-size: 3vh;
+ }
+
+ .section__button {
+    padding: 10px 20px;
+    font-size: 3vh;
+    background-color: var(--HERO-BGCOLOR);
+    color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ .section__button:hover,
+ .section__button:active {
+    background-color: whitesmoke;
+    color: var(--HERO-BGCOLOR);
+    border: solid var(--HERO-BGCOLOR);
+    /* transition: 1s; */
+
  }
 
  /* || TEA PART 2 */
@@ -360,6 +386,22 @@ a:hover {
         left: 0;
     }
 
+    /* HERO */
+    .hero__h2 {
+        display: none;
+    }
+
+    /* || TEA */
+    .section__div {
+        flex-wrap: wrap;
+    }
+    .section__div div div:first-child,
+    .popular-tea{
+        border: none;
+    }
+    .section__h3 {
+        font-size: 7vw;
+    }
 
 
     /* ||ASIDE */
@@ -387,24 +429,6 @@ a:hover {
  }
 
  @media screen and (max-width: 576px) {
-    /* || TEA */
-    .section__h3 {
-        font-size: 7vw;
-    }
-    .section__div {
-        flex-wrap: wrap;
-    }
-    .section__div div div:first-child,
-    .popular-tea{
-        border: none;
-    }
-    .section__div div div p{
-        border-top: 1px solid black;
-    }
-    .popular-tea img{
-        border-bottom: 1px solid black;
-    }
-
     /* || ABOUT US */
     .article__aside div {
         flex-wrap: wrap;
