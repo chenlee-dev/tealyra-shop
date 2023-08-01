@@ -1,0 +1,18 @@
+{
+  "name": "tealyra-shop",
+  "version": "1.0.0",
+  "description": "Clone from Tealyra website The reason I want to clone this website because I want to improve my HTML/CSS with responsive skill.  So hopefully that you can give me some advice/ideas that I can do better next time? Very appreciate that!!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tealyra-shop"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
