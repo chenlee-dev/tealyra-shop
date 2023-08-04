@@ -271,6 +271,7 @@ a:hover {
  .div__section-2 div p {
     color: #949494;
  }
+
  .section__h3 {
     font-size: 3vw;
  }
@@ -302,6 +303,7 @@ a:hover {
     width: 80%;
     height: auto;
  }
+
 
  /* || FOOTER */
 .footer__btn {
@@ -346,6 +348,63 @@ a:hover {
     padding: 0 10px;
  }
 
+/* || TEA-SELECTION BEST-SELLER */
+.hero__tea-selection img{
+    width: 100%;
+}
+
+.div__heading h3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    padding: 30px 0px;
+    font-size: 5vh;
+}
+
+.div__heading h3:before,
+.div__heading h3:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+.div__heading h3:before {
+    margin-right: 10px;
+}
+
+.div__heading h3:after {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.container-flex {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    row-gap: 1rem;
+}
+
+.item-flex {
+    padding: 30px 0px;
+ }
+
+ .item-flex p {
+    font-weight: bold;
+    font-size: 3vh;
+ }
+
+
 
  /* ||MEDIA */
  @media screen and (max-width:858px) {
@@ -359,7 +418,7 @@ a:hover {
         display: block;
     }
 
-    ul {
+    .nav ul {
         position: fixed;
         width: 100%;
         height: 100vh;
